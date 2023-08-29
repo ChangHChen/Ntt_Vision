@@ -40,7 +40,7 @@ def make_depthmap(depth_map, path, filename):
 
     plt.imshow(depth_map.astype("uint8"))
     plt.axis("off")
-    plt.savefig(f"{path}\images\{filename}.png")
+    plt.savefig(f"{path}/images/{filename}.png")
     print(f"{filename}.png generated.")
 
 
